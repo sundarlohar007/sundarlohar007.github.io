@@ -29,7 +29,7 @@ export default function Projects() {
     >
       <div className="mx-auto max-w-5xl px-6">
         <div className="mb-4 text-sm font-semibold tracking-widest text-blue-600 dark:text-blue-400 uppercase">
-          Portfolio
+          Tools
         </div>
         <h2 className="mb-12 text-3xl font-bold md:text-4xl text-balance">
           Featured Projects
