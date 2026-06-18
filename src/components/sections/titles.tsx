@@ -47,7 +47,7 @@ export default function Titles() {
       id="titles"
       className="bg-background/20 dark:bg-background/50 py-24 "
     >
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-5xl px-6">
         <div className="mb-4 text-sm font-semibold tracking-widest text-blue-600 dark:text-blue-400 uppercase">
           Portfolio
         </div>
