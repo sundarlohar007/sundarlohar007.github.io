@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sundar Lohar | Senior Game Tester</title>
+    <meta name="description" content="Senior Game Tester with 7+ years at Ubisoft Pune. Multi-Platform QA, Live Service QA, and Dev QA liaison.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="bg-canvas"></div>
+    <div class="progress-bar" id="progressBar"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">SL</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="hero-badge fade-in">
+                    <span class="badge-dot"></span>
+                    <span>Available for opportunities</span>
+                </div>
+                <h1 class="hero-title blur-in" style="animation-delay: 0.1s">
+                    Sundar Lohar
+                </h1>
+                <h2 class="hero-subtitle blur-in" style="animation-delay: 0.3s">
+                    Senior Game Tester &middot; Multi-Platform QA &middot; Live Service QA
+                </h2>
+                <p class="hero-location fade-in" style="animation-delay: 0.3s">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-12 10-12 10S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Pune, Maharashtra, India
+                </p>
+                <div class="hero-actions fade-in" style="animation-delay: 0.4s">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="SundarLohar-Resume-New.docx" download class="btn btn-outline">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        Download CV
+                    </a>
+                    <a href="https://github.com/sundarlohar007" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">View GitHub</a>
+                </div>
+                <div class="hero-scroll fade-in" style="animation-delay: 0.6s">
+                    <span>Scroll to explore</span>
+                    <svg class="scroll-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about" id="about">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">About</span>
+                    <h2 class="section-title">Professional Summary</h2>
+                </div>
+                <div class="about-content scroll-reveal">
+                    <p class="about-text">
+                        Senior Game Tester with <strong>7+ years at Ubisoft Pune</strong>, shipping <strong>30 projects</strong> across PC, console (Xbox One/Series X|S, PS4/PS5, Nintendo Switch), VR (Meta Quest 2), mobile (iOS/Android), and streaming (Google Stadia).
+                    </p>
+                    <p class="about-text">
+                        Experienced across the full QA cycle: functional, regression, smoke/sanity, compatibility, multiplayer/session, and live-service testing. Proven track record managing 100+ defects per title in JIRA, authoring and maintaining test cases and checklists in Xray (Jira), and operating as a Dev QA liaison across requirements analysis, milestone, and release-candidate reviews.
+                    </p>
+                    <p class="about-text">
+                        Initiated Airtest IDE automation for mobile smoke testing and developed an internal ADB/scrcpy/libimobiledevice logging tool. Currently driving live-ops QA on an active mobile title and mentoring junior testers within a team of up to 20.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="section stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card scroll-reveal">
+                        <span class="stat-number" data-target="30" data-suffix="+">0</span>
+                        <span class="stat-label">Shipped Titles</span>
+                    </div>
+                    <div class="stat-card scroll-reveal" style="transition-delay: 0.1s">
+                        <span class="stat-number" data-target="7" data-suffix="+">0</span>
+                        <span class="stat-label">Years at Ubisoft</span>
+                    </div>
+                    <div class="stat-card scroll-reveal" style="transition-delay: 0.2s">
+                        <span class="stat-number" data-target="6">0</span>
+                        <span class="stat-label">Platforms</span>
+                    </div>
+                    <div class="stat-card scroll-reveal" style="transition-delay: 0.3s">
+                        <span class="stat-number" data-target="100" data-suffix="+">0</span>
+                        <span class="stat-label">Defects / Title</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills" id="skills">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">Expertise</span>
+                    <h2 class="section-title">Technical Skills</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category scroll-reveal">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"/><path d="m9 12 2 2 4-4"/></svg>
+                            </div>
+                            <h3>QA Methodologies</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tag tag--qa">Functional</span>
+                            <span class="tag tag--qa">Regression</span>
+                            <span class="tag tag--qa">Smoke/Sanity</span>
+                            <span class="tag tag--qa">Compatibility</span>
+                            <span class="tag tag--qa">Exploratory</span>
+                            <span class="tag tag--qa">Multiplayer &amp; Session</span>
+                            <span class="tag tag--qa">Live Service QA</span>
+                            <span class="tag tag--qa">Build Verification</span>
+                            <span class="tag tag--qa">RC Build Validation</span>
+                            <span class="tag tag--qa">Defect Triage</span>
+                        </div>
+                    </div>
+                    <div class="skill-category scroll-reveal" style="transition-delay: 0.1s">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5Z"/></svg>
+                            </div>
+                            <h3>Bug &amp; Test Management</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tag tag--mgmt">JIRA</span>
+                            <span class="tag tag--mgmt">Xray</span>
+                            <span class="tag tag--mgmt">Confluence</span>
+                            <span class="tag tag--mgmt">TestRail</span>
+                        </div>
+                    </div>
+                    <div class="skill-category scroll-reveal" style="transition-delay: 0.2s">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg>
+                            </div>
+                            <h3>Platform &amp; Device Tools</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tag tag--tools">Xbox GDK</span>
+                            <span class="tag tag--tools">PS Neighborhood</span>
+                            <span class="tag tag--tools">TestFlight</span>
+                            <span class="tag tag--tools">Google Play Internal</span>
+                            <span class="tag tag--tools">ADB</span>
+                            <span class="tag tag--tools">Android Studio</span>
+                            <span class="tag tag--tools">scrcpy</span>
+                            <span class="tag tag--tools">Airtest IDE</span>
+                            <span class="tag tag--tools">TeamCity</span>
+                            <span class="tag tag--tools">Firebase Crashlytics</span>
+                        </div>
+                    </div>
+                    <div class="skill-category scroll-reveal" style="transition-delay: 0.3s">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" x2="22" y1="12" y2="12"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20Z"/></svg>
+                            </div>
+                            <h3>Platforms Tested</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tag tag--platform">PC (Windows)</span>
+                            <span class="tag tag--platform">PS4/PS5</span>
+                            <span class="tag tag--platform">Xbox One / Series X|S</span>
+                            <span class="tag tag--platform">Nintendo Switch</span>
+                            <span class="tag tag--platform">Meta Quest 2</span>
+                            <span class="tag tag--platform">iOS (iPhone/iPad)</span>
+                            <span class="tag tag--platform">Android</span>
+                            <span class="tag tag--platform">Google Stadia</span>
+                        </div>
+                    </div>
+                    <div class="skill-category scroll-reveal" style="transition-delay: 0.4s">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                            </div>
+                            <h3>Operating Systems</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tag tag--os">Windows</span>
+                            <span class="tag tag--os">macOS</span>
+                            <span class="tag tag--os">Linux</span>
+                            <span class="tag tag--os">Android</span>
+                            <span class="tag tag--os">iOS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section experience" id="experience">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">Career</span>
+                    <h2 class="section-title">Work Experience</h2>
+                </div>
+                <div class="experience-list">
+                    <!-- Senior Game Tester -->
+                    <div class="experience-card scroll-reveal">
+                        <div class="experience-header">
+                            <div class="experience-role">
+                                <h3>Senior Game Tester</h3>
+                                <span class="experience-company">Ubisoft</span>
+                            </div>
+                            <span class="experience-date">April 2022 &ndash; Present</span>
+                        </div>
+                        <div class="experience-location">Pune, India</div>
+                        <ul class="experience-details">
+                            <li>Owned end-to-end QA coverage across <strong>10 projects</strong> on PC, PS4, Xbox One, Nintendo Switch, Meta Quest 2, iOS, and Android.</li>
+                            <li>Leading live-ops QA on <strong>The Division: Resurgence</strong> (Android), validating post-launch patches, seasonal updates, and hotfixes.</li>
+                            <li>Initiated <strong>Airtest IDE automation</strong> for mobile smoke testing on Might &amp; Magic: Fates.</li>
+                            <li>Developed an internal <strong>mobile debugging utility</strong> integrating ADB, scrcpy, and libimobiledevice &mdash; now in studio-wide adoption.</li>
+                            <li>Act as Dev QA liaison: daily communication with dev teams, requirements analysis, milestone reviews, and structured RC build feedback.</li>
+                            <li>Mentoring junior game testers within a team of up to 20.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Game Tester -->
+                    <div class="experience-card scroll-reveal">
+                        <div class="experience-header">
+                            <div class="experience-role">
+                                <h3>Game Tester</h3>
+                                <span class="experience-company">Ubisoft</span>
+                            </div>
+                            <span class="experience-date">April 2021 &ndash; March 2022</span>
+                        </div>
+                        <div class="experience-location">Pune, India</div>
+                        <ul class="experience-details">
+                            <li>Executed manual functional and regression test suites across 4 projects on Nintendo Switch, PS4, PC, and Google Stadia.</li>
+                            <li>Designed and maintained test case suites in TestRail aligned to feature requirements.</li>
+                            <li>Standardized reproduction step documentation in JIRA, reducing ambiguity and improving developer resolution turnaround.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Junior Game Tester -->
+                    <div class="experience-card scroll-reveal">
+                        <div class="experience-header">
+                            <div class="experience-role">
+                                <h3>Junior Game Tester</h3>
+                                <span class="experience-company">Ubisoft</span>
+                            </div>
+                            <span class="experience-date">May 2019 &ndash; March 2021</span>
+                        </div>
+                        <div class="experience-location">Pune, India</div>
+                        <ul class="experience-details">
+                            <li>Executed functional and regression test plans across 7 projects on PC, Xbox One, PS4, and Nintendo Switch.</li>
+                            <li>Filed 100+ defects per title cycle with precise reproduction steps, severity classification, and video captures.</li>
+                            <li>Contributed to early pre-release functional and multiplayer QA on Roller Champions (PC).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notable Titles Section -->
+        <section class="section titles" id="titles">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">Portfolio</span>
+                    <h2 class="section-title">Notable Shipped Titles</h2>
+                    <p class="section-subtitle">21 Projects &middot; 8 Platforms</p>
+                </div>
+                <div class="titles-list">
+                    <div class="title-group scroll-reveal">
+                        <h3 class="title-period">Senior Game Tester &middot; 2022 &ndash; Present</h3>
+                        <div class="title-items">
+                            <div class="title-card">
+                                <h4>The Division: Resurgence</h4>
+                                <span class="title-platform">Android &middot; iOS &middot; PC</span>
+                                <span class="title-badge live">Live Service</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="Android"><svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" id="mdi-android" viewBox="0 0 24 24" width="18" height="18"><path d="M16.61 15.15C16.15 15.15 15.77 14.78 15.77 14.32S16.15 13.5 16.61 13.5H16.61C17.07 13.5 17.45 13.86 17.45 14.32C17.45 14.78 17.07 15.15 16.61 15.15M7.41 15.15C6.95 15.15 6.57 14.78 6.57 14.32C6.57 13.86 6.95 13.5 7.41 13.5H7.41C7.87 13.5 8.24 13.86 8.24 14.32C8.24 14.78 7.87 15.15 7.41 15.15M16.91 10.14L18.58 7.26C18.67 7.09 18.61 6.88 18.45 6.79C18.28 6.69 18.07 6.75 18 6.92L16.29 9.83C14.95 9.22 13.5 8.9 12 8.91C10.47 8.91 9 9.24 7.73 9.82L6.04 6.91C5.95 6.74 5.74 6.68 5.57 6.78C5.4 6.87 5.35 7.08 5.44 7.25L7.1 10.13C4.25 11.69 2.29 14.58 2 18H22C21.72 14.59 19.77 11.7 16.91 10.14H16.91Z" /></svg></span>
+                                    <span class="platform-icon" title="iOS"><svg viewBox="-29.5 0 315 315" width="18" height="18" preserveAspectRatio="xMidYMid"><g><path d="M213.803394 167.030943C214.2452 214.609646 255.542482 230.442639 256 230.644727 255.650812 231.761357 249.401383 253.208293 234.24263 275.361446c-13.104075 19.152523-26.704377 38.234887-48.128871 38.630099C165.062051 314.379442 158.292752 301.507828 134.22469 301.507828c-24.060792.0-31.581791 12.088473-51.5095774 12.871614C62.0350407 315.16201 46.2873831 293.668525 33.0744079 274.586162 6.07529317 235.552544-14.5576169 164.286328 13.147166 116.18047 26.9103111 92.2909053 51.5060917 77.1630356 78.2026125 76.7751096 98.5099145 76.3877456 117.677594 90.4371851 130.091705 90.4371851c12.40624.0 35.69905-16.8956822 60.185922-14.4143377C200.528668 76.4495055 229.303509 80.1636878 247.780625 107.209389c-1.4888.922944000000001-34.334275 20.044016-33.977231 59.821599M174.239142 50.1987033C185.218331 36.9088319 192.607958 18.4081019 190.591988.0c-15.825676.636050225-34.962474 10.5457909-46.313879 23.8283506-10.173039 11.7623252-19.082334 30.5886769-16.678452 48.6324426C145.239231 73.8255433 163.259413 63.4970262 174.239142 50.1987249" fill="#000"/></g></svg></span>
+                                    <span class="platform-icon" title="PC"><svg viewBox="144 144 512 512" width="18" height="18"><defs><clipPath id="a"><path d="m148.09 248H651.9v304H148.09z"/></clipPath></defs><g clip-path="url(#a)"><path d="m362.21 299.24H639.3c6.8711.0 12.594 5.7266 12.594 12.594v176.33c0 6.8711-5.7266 12.594-12.594 12.594H513.35v25.191h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594h-100.77c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785v-25.191H362.2c-6.8711.0-12.594-5.7266-12.594-12.594v-176.33c0-6.8711 5.7266-12.594 12.594-12.594zM236.26 475.57c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594zm-18.895-91.887c-6.8711.0-12.594-5.4375-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 7.1562-5.7266 12.594-12.594 12.594zm0-52.672c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594zm81.867-56.965h-125.95v251.91h125.95zm-138.55-25.191h151.14c6.8711.0 12.594 5.7266 12.594 12.594v277.09c0 6.8711-5.7266 12.594-12.594 12.594h-151.14c-6.8711.0-12.594-5.7266-12.594-12.594v-277.09c0-6.8711 5.7266-12.594 12.594-12.594zm466.02 75.57h-251.91v151.14h251.91z"/></g></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>Might &amp; Magic: Fates</h4>
+                                <span class="title-platform">PC &middot; Android &middot; iOS</span>
+                                <span class="title-badge">RPG</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PC"><svg viewBox="144 144 512 512" width="18" height="18"><defs><clipPath id="a"><path d="m148.09 248H651.9v304H148.09z"/></clipPath></defs><g clip-path="url(#a)"><path d="m362.21 299.24H639.3c6.8711.0 12.594 5.7266 12.594 12.594v176.33c0 6.8711-5.7266 12.594-12.594 12.594H513.35v25.191h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594h-100.77c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785v-25.191H362.2c-6.8711.0-12.594-5.7266-12.594-12.594v-176.33c0-6.8711 5.7266-12.594 12.594-12.594zM236.26 475.57c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594zm-18.895-91.887c-6.8711.0-12.594-5.4375-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 7.1562-5.7266 12.594-12.594 12.594zm0-52.672c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594zm81.867-56.965h-125.95v251.91h125.95zm-138.55-25.191h151.14c6.8711.0 12.594 5.7266 12.594 12.594v277.09c0 6.8711-5.7266 12.594-12.594 12.594h-151.14c-6.8711.0-12.594-5.7266-12.594-12.594v-277.09c0-6.8711 5.7266-12.594 12.594-12.594zm466.02 75.57h-251.91v151.14h251.91z"/></g></svg></span>
+                                    <span class="platform-icon" title="Android"><svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" id="mdi-android" viewBox="0 0 24 24" width="18" height="18"><path d="M16.61 15.15C16.15 15.15 15.77 14.78 15.77 14.32S16.15 13.5 16.61 13.5H16.61C17.07 13.5 17.45 13.86 17.45 14.32C17.45 14.78 17.07 15.15 16.61 15.15M7.41 15.15C6.95 15.15 6.57 14.78 6.57 14.32C6.57 13.86 6.95 13.5 7.41 13.5H7.41C7.87 13.5 8.24 13.86 8.24 14.32C8.24 14.78 7.87 15.15 7.41 15.15M16.91 10.14L18.58 7.26C18.67 7.09 18.61 6.88 18.45 6.79C18.28 6.69 18.07 6.75 18 6.92L16.29 9.83C14.95 9.22 13.5 8.9 12 8.91C10.47 8.91 9 9.24 7.73 9.82L6.04 6.91C5.95 6.74 5.74 6.68 5.57 6.78C5.4 6.87 5.35 7.08 5.44 7.25L7.1 10.13C4.25 11.69 2.29 14.58 2 18H22C21.72 14.59 19.77 11.7 16.91 10.14H16.91Z" /></svg></span>
+                                    <span class="platform-icon" title="iOS"><svg viewBox="-29.5 0 315 315" width="18" height="18" preserveAspectRatio="xMidYMid"><g><path d="M213.803394 167.030943C214.2452 214.609646 255.542482 230.442639 256 230.644727 255.650812 231.761357 249.401383 253.208293 234.24263 275.361446c-13.104075 19.152523-26.704377 38.234887-48.128871 38.630099C165.062051 314.379442 158.292752 301.507828 134.22469 301.507828c-24.060792.0-31.581791 12.088473-51.5095774 12.871614C62.0350407 315.16201 46.2873831 293.668525 33.0744079 274.586162 6.07529317 235.552544-14.5576169 164.286328 13.147166 116.18047 26.9103111 92.2909053 51.5060917 77.1630356 78.2026125 76.7751096 98.5099145 76.3877456 117.677594 90.4371851 130.091705 90.4371851c12.40624.0 35.69905-16.8956822 60.185922-14.4143377C200.528668 76.4495055 229.303509 80.1636878 247.780625 107.209389c-1.4888.922944000000001-34.334275 20.044016-33.977231 59.821599M174.239142 50.1987033C185.218331 36.9088319 192.607958 18.4081019 190.591988.0c-15.825676.636050225-34.962474 10.5457909-46.313879 23.8283506-10.173039 11.7623252-19.082334 30.5886769-16.678452 48.6324426C145.239231 73.8255433 163.259413 63.4970262 174.239142 50.1987249" fill="#000"/></g></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>Hungry Shark World</h4>
+                                <span class="title-platform">Android &middot; iOS</span>
+                                <span class="title-badge">Casual Mobile</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="Android"><svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" id="mdi-android" viewBox="0 0 24 24" width="18" height="18"><path d="M16.61 15.15C16.15 15.15 15.77 14.78 15.77 14.32S16.15 13.5 16.61 13.5H16.61C17.07 13.5 17.45 13.86 17.45 14.32C17.45 14.78 17.07 15.15 16.61 15.15M7.41 15.15C6.95 15.15 6.57 14.78 6.57 14.32C6.57 13.86 6.95 13.5 7.41 13.5H7.41C7.87 13.5 8.24 13.86 8.24 14.32C8.24 14.78 7.87 15.15 7.41 15.15M16.91 10.14L18.58 7.26C18.67 7.09 18.61 6.88 18.45 6.79C18.28 6.69 18.07 6.75 18 6.92L16.29 9.83C14.95 9.22 13.5 8.9 12 8.91C10.47 8.91 9 9.24 7.73 9.82L6.04 6.91C5.95 6.74 5.74 6.68 5.57 6.78C5.4 6.87 5.35 7.08 5.44 7.25L7.1 10.13C4.25 11.69 2.29 14.58 2 18H22C21.72 14.59 19.77 11.7 16.91 10.14H16.91Z" /></svg></span>
+                                    <span class="platform-icon" title="iOS"><svg viewBox="-29.5 0 315 315" width="18" height="18" preserveAspectRatio="xMidYMid"><g><path d="M213.803394 167.030943C214.2452 214.609646 255.542482 230.442639 256 230.644727 255.650812 231.761357 249.401383 253.208293 234.24263 275.361446c-13.104075 19.152523-26.704377 38.234887-48.128871 38.630099C165.062051 314.379442 158.292752 301.507828 134.22469 301.507828c-24.060792.0-31.581791 12.088473-51.5095774 12.871614C62.0350407 315.16201 46.2873831 293.668525 33.0744079 274.586162 6.07529317 235.552544-14.5576169 164.286328 13.147166 116.18047 26.9103111 92.2909053 51.5060917 77.1630356 78.2026125 76.7751096 98.5099145 76.3877456 117.677594 90.4371851 130.091705 90.4371851c12.40624.0 35.69905-16.8956822 60.185922-14.4143377C200.528668 76.4495055 229.303509 80.1636878 247.780625 107.209389c-1.4888.922944000000001-34.334275 20.044016-33.977231 59.821599M174.239142 50.1987033C185.218331 36.9088319 192.607958 18.4081019 190.591988.0c-15.825676.636050225-34.962474 10.5457909-46.313879 23.8283506-10.173039 11.7623252-19.082334 30.5886769-16.678452 48.6324426C145.239231 73.8255433 163.259413 63.4970262 174.239142 50.1987249" fill="#000"/></g></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>XDefiant</h4>
+                                <span class="title-platform">PC &middot; PS5 &middot; Xbox Series X|S</span>
+                                <span class="title-badge">Multiplayer</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PC"><svg viewBox="144 144 512 512" width="18" height="18"><defs><clipPath id="a"><path d="m148.09 248H651.9v304H148.09z"/></clipPath></defs><g clip-path="url(#a)"><path d="m362.21 299.24H639.3c6.8711.0 12.594 5.7266 12.594 12.594v176.33c0 6.8711-5.7266 12.594-12.594 12.594H513.35v25.191h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594h-100.77c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785v-25.191H362.2c-6.8711.0-12.594-5.7266-12.594-12.594v-176.33c0-6.8711 5.7266-12.594 12.594-12.594zM236.26 475.57c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594zm-18.895-91.887c-6.8711.0-12.594-5.4375-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 7.1562-5.7266 12.594-12.594 12.594zm0-52.672c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594zm81.867-56.965h-125.95v251.91h125.95zm-138.55-25.191h151.14c6.8711.0 12.594 5.7266 12.594 12.594v277.09c0 6.8711-5.7266 12.594-12.594 12.594h-151.14c-6.8711.0-12.594-5.7266-12.594-12.594v-277.09c0-6.8711 5.7266-12.594 12.594-12.594zm466.02 75.57h-251.91v151.14h251.91z"/></g></svg></span>
+                                    <span class="platform-icon" title="PlayStation"><svg viewBox="0 0 32 32" width="18" height="18" fill="none"><path d="M.69116 21.9548C-.506476 22.7935-.284724 24.2384 2.44769 25.1419 5.18011 26.0455 8.35603 26.2323 11.1505 25.729c-.0797999999999988.0.159700000000001.0.0.0V22.8774L8.43588 23.8c-1.03796.3355-2.07591.4194-3.11386.1677-.79842-.2516-.63874-.7548.31937-1.1742l5.50911-2.0129V17.6774L3.48565 20.4452C2.52754 20.7806 1.56943 21.2839.69116 21.9548zM19.2146 9.37419V17.5097c3.2735 1.6774 5.8285.0 5.8285-4.3613.0-4.44517-1.517-6.45808-5.9083-8.05163C16.8193 4.25806 14.4241 3.50323 12.0288 3V27.2387L17.6178 29V8.61935c0-.922580000000001.0-1.59354.6387-1.34193C19.1348 7.52903 19.2146 8.45161 19.2146 9.37419zM29.5941 20.0258C27.2787 19.1871 24.8036 18.8516 22.4083 19.1032 21.0779 19.1906 19.8294 19.5869 18.5759 20.0258v3.271l5.1897-2.0129c1.038-.3355 2.0759-.4194 3.1139-.1678C27.6779 21.3677 27.5182 21.871 26.5601 22.2903l-7.9842 3.1032v3.1871l11.0182-4.2774C30.3925 23.9677 31.1111 23.5484 31.7499 22.8774 32.3088 22.0387 32.0692 20.8645 29.5941 20.0258z" fill="#0070D1"/></svg></span>
+                                    <span class="platform-icon" title="Xbox"><svg viewBox="0 0 32 32" width="18" height="18" fill="none"><circle opacity=".852" cx="16" cy="16" r="14" fill="url(#paint0_radial_87_8329)"/><path d="M6.75137 26.5333C6.73227 26.5193 6.7127 26.5016 6.69312 26.4801 6.33073 26.1504 5.74045 25.6304 5.12362 24.8444 4.5909 23.6889 4.89287 21.748 6.20386 19.0075c1.84971-3.8666 4.80924-7.7924 6.02264-9.185-.3452-.38518-1.4146-1.43997-2.92991-2.57773C7.7813 6.10701 6.67738 5.99047 6.29264 6.05961c.35515-.38518 1.18382-1.11109 1.87932-1.59997 2.15454-1.06665 6.13614.73579 7.84284 1.76293V13.2891c-4.3506 3.3481-8.37556 8.5184-9.18944 10.5331C6.20418 25.36 6.44975 26.2128 6.69312 26.4801 6.71325 26.4984 6.73269 26.5161 6.75137 26.5333z" fill="url(#paint1_linear_87_8329)"/><path d="M6.75137 26.5331C6.73227 26.5191 6.7127 26.5014 6.69311 26.4799 6.33072 26.1502 5.74045 25.6302 5.12362 24.8442 4.5909 23.6887 4.89287 21.7477 6.20386 19.0073c2.14747-4.489 6.02264-9.18503 6.02264-9.18503s.692 1.71823 2.2623 4.69603c-4.0444 3.5851-6.84957 7.2889-7.66344 9.3037-.62118 1.5378-.37562 2.3906-.13225 2.6579C6.71325 26.4982 6.73268 26.5159 6.75137 26.5331z" fill="url(#paint2_linear_87_8329)"/><path d="M25.2779 26.5333C25.297 26.5193 25.3166 26.5016 25.3362 26.4801 25.6986 26.1504 26.2888 25.6304 26.9057 24.8444 27.4384 23.6889 27.1364 21.748 25.8254 19.0075c-1.8497-3.8666-4.8092-7.7924-6.0226-9.185C20.148 9.43732 21.2174 8.38253 22.7327 7.24477c1.5153-1.13776 2.6192-1.2543 3.004-1.18516-.3552-.38518-1.1839-1.11109-1.8794-1.59997-2.1545-1.06665-6.1361.73579-7.8428 1.76293V13.2891c4.3506 3.3481 8.3756 8.5184 9.1894 10.5331C19.8251 25.36 19.5796 26.2128 19.3362 26.4801 19.316 26.4984 19.2966 26.5161 19.2779 26.5333z" fill="url(#paint3_linear_87_8329)"/><path d="M25.2779 26.5331C25.297 26.5191 25.3166 26.5014 25.3362 26.4799 25.6986 26.1502 26.2888 25.6302 26.9057 24.8442 27.4384 23.6887 27.1364 21.7477 25.8254 19.0073c-2.1474-4.489-6.0226-9.18503-6.0226-9.18503s-.692 1.71823-2.2623 4.69603c4.044 3.5851 6.8495 7.2889 7.6634 9.3037.6212 1.5378.3756 2.3906.1322 2.6579C25.313 26.4982 25.332 26.5159 25.2779 26.5331z" fill="url(#paint4_linear_87_8329)"/><path d="M12 2C6.4771 2 2 6.4771 2 12s4.4771 10 10 10 10-4.4771 10-10S17.5229 2 12 2zm0 18.4615C7.5282 20.4615 4 16.9331 4 12.4615 6.1538 15.0769 9.2308 12 12.4615 12c3.2308 0 6.3077 3.0769 8.4615.5385C20.9231 16.9331 17.3948 20.4615 12 20.4615z" fill="url(#paint5_radial_87_8329)" opacity=".5"/><defs><radialGradient id="paint0_radial_87_8329" cx="16" cy="16" r="14" gradientUnits="userSpaceOnUse"><stop stop-color="#7CC34A"/><stop offset="1" stop-color="#163C30"/></radialGradient><linearGradient id="paint1_linear_87_8329" x1="5.89" y1="12" x2="3.54" y2="22.78" gradientUnits="userSpaceOnUse"><stop stop-color="#227D17"/><stop offset="1" stop-color="#155C0F"/></linearGradient><linearGradient id="paint2_linear_87_8329" x1="9.45" y1="15.4" x2="9.25" y2="21.52" gradientUnits="userSpaceOnUse"><stop stop-color="#32C71E"/><stop offset="1" stop-color="#2DF91B"/></linearGradient><linearGradient id="paint3_linear_87_8329" x1="18.11" y1="12" x2="20.46" y2="22.78" gradientUnits="userSpaceOnUse"><stop stop-color="#227D17"/><stop offset="1" stop-color="#155C0F"/></linearGradient><linearGradient id="paint4_linear_87_8329" x1="14.55" y1="15.4" x2="14.75" y2="21.52" gradientUnits="userSpaceOnUse"><stop stop-color="#32C71E"/><stop offset="1" stop-color="#2DF91B"/></linearGradient><radialGradient id="paint5_radial_87_8329" cx="9.84" cy="15.08" r="7.54" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF"/><stop offset="1" stop-color="#FFF" stop-opacity="0"/></radialGradient></defs></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>Assassin's Creed: Nexus VR</h4>
+                                <span class="title-platform">Meta Quest 2</span>
+                                <span class="title-badge">VR</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="VR"><svg viewBox="144 144 512 512" width="18" height="18"><g><path d="m468.48 541.76c-23.969.33594-46.328-10.113-68.48-10.68-24.43.75391-48.387 12.758-75.039 10.441-16.75-1.2539-32.645-3.7656-48.973-5.7969h-.003906c-15.004-1.8789-29.133-8.0859-40.66-17.867-11.531-9.7773-19.965-22.703-24.27-37.195-18.359-52.301-19.551-174.62 64.602-185.08l.003906-.003906c82.469-10.25 165.89-10.266 248.36-.046875 15.188 1.9453 29.473 8.3086 41.078 18.297 11.602 9.9922 20.02 23.168 24.199 37.898 11.324 36.242 18.242 105.52-10.074 148.88-23.379 38.637-70.742 37.645-110.75 41.152zM4e2 489.096c24.484-.53516 49.082 11.48 71.902 10.555 15.188-1.1211 31.375-3.6602 46.949-5.5938 48.297-9.1797 41.715-91.484 29.992-131.04h.003906c-2.0625-7.1484-6.2734-13.492-12.062-18.164-5.793-4.6719-12.879-7.4492-20.305-7.9531-78.598-9.5703-158.08-9.4062-236.64.49609-10.75 1.8516-20.035 8.5742-25.156 18.203-16.102 27.375-14.34 79.879-3.1641 113.79 10.668 32.301 51.758 25.703 77.977 30.34 22.621.26562 46.477-11.129 70.504-10.637z"/><path d="m358.02 258.18h83.969v41.984H358.02z"/><path d="m179.58 373.65h41.984v83.969H179.58z"/><path d="m578.43 373.65h41.984v83.969H578.43z"/><path d="m284.54 478.6c-5.7148-.11328-10.293-4.7773-10.293-10.496s4.5781-10.387 10.293-10.496c5.7188.10938 10.297 4.7773 10.293 10.496.0 5.7188-4.5742 10.383-10.293 10.496z"/><path d="m515.46 478.6c-5.7188-.11328-10.293-4.7773-10.293-10.496s4.5781-10.387 10.293-10.496c5.7188.10938 10.293 4.7773 10.293 10.496s-4.5742 10.383-10.293 10.496z"/><path d="m284.54 373.64c-5.7148-.11328-10.293-4.7773-10.293-10.496s4.5781-10.387 10.293-10.496c5.7188.11328 10.297 4.7773 10.293 10.496.0 5.7188-4.5742 10.383-10.293 10.496z"/><path d="m515.46 373.64c-5.7188-.11328-10.293-4.7773-10.293-10.496s4.5781-10.387 10.293-10.496c5.7188.11328 10.293 4.7773 10.293 10.496s-4.5742 10.383-10.293 10.496z"/></g></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>Roller Champions</h4>
+                                <span class="title-platform">PC &middot; PS4 &middot; Xbox One &middot; Nintendo Switch</span>
+                                <span class="title-badge">Sports</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PC"><svg viewBox="144 144 512 512" width="18" height="18"><defs><clipPath id="a"><path d="m148.09 248H651.9v304H148.09z"/></clipPath></defs><g clip-path="url(#a)"><path d="m362.21 299.24H639.3c6.8711.0 12.594 5.7266 12.594 12.594v176.33c0 6.8711-5.7266 12.594-12.594 12.594H513.35v25.191h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594h-100.77c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785v-25.191H362.2c-6.8711.0-12.594-5.7266-12.594-12.594v-176.33c0-6.8711 5.7266-12.594 12.594-12.594zM236.26 475.57c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594zm-18.895-91.887c-6.8711.0-12.594-5.4375-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 7.1562-5.7266 12.594-12.594 12.594zm0-52.672c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594zm81.867-56.965h-125.95v251.91h125.95zm-138.55-25.191h151.14c6.8711.0 12.594 5.7266 12.594 12.594v277.09c0 6.8711-5.7266 12.594-12.594 12.594h-151.14c-6.8711.0-12.594-5.7266-12.594-12.594v-277.09c0-6.8711 5.7266-12.594 12.594-12.594zm466.02 75.57h-251.91v151.14h251.91z"/></g></svg></span>
+                                    <span class="platform-icon" title="PlayStation"><svg viewBox="0 0 32 32" width="18" height="18" fill="none"><path d="M.69116 21.9548C-.506476 22.7935-.284724 24.2384 2.44769 25.1419 5.18011 26.0455 8.35603 26.2323 11.1505 25.729c-.0797999999999988.0.159700000000001.0.0.0V22.8774L8.43588 23.8c-1.03796.3355-2.07591.4194-3.11386.1677-.79842-.2516-.63874-.7548.31937-1.1742l5.50911-2.0129V17.6774L3.48565 20.4452C2.52754 20.7806 1.56943 21.2839.69116 21.9548zM19.2146 9.37419V17.5097c3.2735 1.6774 5.8285.0 5.8285-4.3613.0-4.44517-1.517-6.45808-5.9083-8.05163C16.8193 4.25806 14.4241 3.50323 12.0288 3V27.2387L17.6178 29V8.61935c0-.922580000000001.0-1.59354.6387-1.34193C19.1348 7.52903 19.2146 8.45161 19.2146 9.37419zM29.5941 20.0258C27.2787 19.1871 24.8036 18.8516 22.4083 19.1032 21.0779 19.1906 19.8294 19.5869 18.5759 20.0258v3.271l5.1897-2.0129c1.038-.3355 2.0759-.4194 3.1139-.1678C27.6779 21.3677 27.5182 21.871 26.5601 22.2903l-7.9842 3.1032v3.1871l11.0182-4.2774C30.3925 23.9677 31.1111 23.5484 31.7499 22.8774 32.3088 22.0387 32.0692 20.8645 29.5941 20.0258z" fill="#0070D1"/></svg></span>
+                                    <span class="platform-icon" title="Xbox"><svg viewBox="0 0 32 32" width="18" height="18" fill="none"><circle opacity=".852" cx="16" cy="16" r="14" fill="url(#paint0_radial_87_8329)"/><path d="M6.75137 26.5333C6.73227 26.5193 6.7127 26.5016 6.69312 26.4801 6.33073 26.1504 5.74045 25.6304 5.12362 24.8444 4.5909 23.6889 4.89287 21.748 6.20386 19.0075c1.84971-3.8666 4.80924-7.7924 6.02264-9.185-.3452-.38518-1.4146-1.43997-2.92991-2.57773C7.7813 6.10701 6.67738 5.99047 6.29264 6.05961c.35515-.38518 1.18382-1.11109 1.87932-1.59997 2.15454-1.06665 6.13614.73579 7.84284 1.76293V13.2891c-4.3506 3.3481-8.37556 8.5184-9.18944 10.5331C6.20418 25.36 6.44975 26.2128 6.69312 26.4801 6.71325 26.4984 6.73269 26.5161 6.75137 26.5333z" fill="url(#paint1_linear_87_8329)"/><path d="M6.75137 26.5331C6.73227 26.5191 6.7127 26.5014 6.69311 26.4799 6.33072 26.1502 5.74045 25.6302 5.12362 24.8442 4.5909 23.6887 4.89287 21.7477 6.20386 19.0073c2.14747-4.489 6.02264-9.18503 6.02264-9.18503s.692 1.71823 2.2623 4.69603c-4.0444 3.5851-6.84957 7.2889-7.66344 9.3037-.62118 1.5378-.37562 2.3906-.13225 2.6579C6.71325 26.4982 6.73268 26.5159 6.75137 26.5331z" fill="url(#paint2_linear_87_8329)"/><path d="M25.2779 26.5333C25.297 26.5193 25.3166 26.5016 25.3362 26.4801 25.6986 26.1504 26.2888 25.6304 26.9057 24.8444 27.4384 23.6889 27.1364 21.748 25.8254 19.0075c-1.8497-3.8666-4.8092-7.7924-6.0226-9.185C20.148 9.43732 21.2174 8.38253 22.7327 7.24477c1.5153-1.13776 2.6192-1.2543 3.004-1.18516-.3552-.38518-1.1839-1.11109-1.8794-1.59997-2.1545-1.06665-6.1361.73579-7.8428 1.76293V13.2891c4.3506 3.3481 8.3756 8.5184 9.1894 10.5331C19.8251 25.36 19.5796 26.2128 19.3362 26.4801 19.316 26.4984 19.2966 26.5161 19.2779 26.5333z" fill="url(#paint3_linear_87_8329)"/><path d="M25.2779 26.5331C25.297 26.5191 25.3166 26.5014 25.3362 26.4799 25.6986 26.1502 26.2888 25.6302 26.9057 24.8442 27.4384 23.6887 27.1364 21.7477 25.8254 19.0073c-2.1474-4.489-6.0226-9.18503-6.0226-9.18503s-.692 1.71823-2.2623 4.69603c4.044 3.5851 6.8495 7.2889 7.6634 9.3037.6212 1.5378.3756 2.3906.1322 2.6579C25.313 26.4982 25.332 26.5159 25.2779 26.5331z" fill="url(#paint4_linear_87_8329)"/><path d="M12 2C6.4771 2 2 6.4771 2 12s4.4771 10 10 10 10-4.4771 10-10S17.5229 2 12 2zm0 18.4615C7.5282 20.4615 4 16.9331 4 12.4615 6.1538 15.0769 9.2308 12 12.4615 12c3.2308 0 6.3077 3.0769 8.4615.5385C20.9231 16.9331 17.3948 20.4615 12 20.4615z" fill="url(#paint5_radial_87_8329)" opacity=".5"/><defs><radialGradient id="paint0_radial_87_8329" cx="16" cy="16" r="14" gradientUnits="userSpaceOnUse"><stop stop-color="#7CC34A"/><stop offset="1" stop-color="#163C30"/></radialGradient><linearGradient id="paint1_linear_87_8329" x1="5.89" y1="12" x2="3.54" y2="22.78" gradientUnits="userSpaceOnUse"><stop stop-color="#227D17"/><stop offset="1" stop-color="#155C0F"/></linearGradient><linearGradient id="paint2_linear_87_8329" x1="9.45" y1="15.4" x2="9.25" y2="21.52" gradientUnits="userSpaceOnUse"><stop stop-color="#32C71E"/><stop offset="1" stop-color="#2DF91B"/></linearGradient><linearGradient id="paint3_linear_87_8329" x1="18.11" y1="12" x2="20.46" y2="22.78" gradientUnits="userSpaceOnUse"><stop stop-color="#227D17"/><stop offset="1" stop-color="#155C0F"/></linearGradient><linearGradient id="paint4_linear_87_8329" x1="14.55" y1="15.4" x2="14.75" y2="21.52" gradientUnits="userSpaceOnUse"><stop stop-color="#32C71E"/><stop offset="1" stop-color="#2DF91B"/></linearGradient><radialGradient id="paint5_radial_87_8329" cx="9.84" cy="15.08" r="7.54" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF"/><stop offset="1" stop-color="#FFF" stop-opacity="0"/></radialGradient></defs></svg></span>
+                                    <span class="platform-icon" title="Nintendo Switch"><svg viewBox="0 0 48 48" width="18" height="18" fill="none"><rect width="48" height="48" fill="#fff" fill-opacity=".01"/><path d="M6 18C6 12.3431 6 9.51472 7.75736 7.75736S12.3431 6 18 6h2V42H18c-5.6569.0-8.48528.0-10.24264-1.7574C6 38.4853 6 35.6569 6 30V18z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 18c0-5.6569.0-8.48528-1.7574-10.24264C38.4853 6 35.6569 6 30 6H28V42h2c5.6569.0 8.4853.0 10.2426-1.7574C42 38.4853 42 35.6569 42 30V18z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M35 13v2" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 33v2" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>Rabbids: Party of Legends</h4>
+                                <span class="title-platform">PS4 &middot; Switch &middot; PC</span>
+                                <span class="title-badge">Party Game</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PlayStation"><svg viewBox="0 0 32 32" width="18" height="18" fill="none"><path d="M.69116 21.9548C-.506476 22.7935-.284724 24.2384 2.44769 25.1419 5.18011 26.0455 8.35603 26.2323 11.1505 25.729c-.0797999999999988.0.159700000000001.0.0.0V22.8774L8.43588 23.8c-1.03796.3355-2.07591.4194-3.11386.1677-.79842-.2516-.63874-.7548.31937-1.1742l5.50911-2.0129V17.6774L3.48565 20.4452C2.52754 20.7806 1.56943 21.2839.69116 21.9548zM19.2146 9.37419V17.5097c3.2735 1.6774 5.8285.0 5.8285-4.3613.0-4.44517-1.517-6.45808-5.9083-8.05163C16.8193 4.25806 14.4241 3.50323 12.0288 3V27.2387L17.6178 29V8.61935c0-.922580000000001.0-1.59354.6387-1.34193C19.1348 7.52903 19.2146 8.45161 19.2146 9.37419zM29.5941 20.0258C27.2787 19.1871 24.8036 18.8516 22.4083 19.1032 21.0779 19.1906 19.8294 19.5869 18.5759 20.0258v3.271l5.1897-2.0129c1.038-.3355 2.0759-.4194 3.1139-.1678C27.6779 21.3677 27.5182 21.871 26.5601 22.2903l-7.9842 3.1032v3.1871l11.0182-4.2774C30.3925 23.9677 31.1111 23.5484 31.7499 22.8774 32.3088 22.0387 32.0692 20.8645 29.5941 20.0258z" fill="#0070D1"/></svg></span>
+                                    <span class="platform-icon" title="Nintendo Switch"><svg viewBox="0 0 48 48" width="18" height="18" fill="none"><rect width="48" height="48" fill="#fff" fill-opacity=".01"/><path d="M6 18C6 12.3431 6 9.51472 7.75736 7.75736S12.3431 6 18 6h2V42H18c-5.6569.0-8.48528.0-10.24264-1.7574C6 38.4853 6 35.6569 6 30V18z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 18c0-5.6569.0-8.48528-1.7574-10.24264C38.4853 6 35.6569 6 30 6H28V42h2c5.6569.0 8.4853.0 10.2426-1.7574C42 38.4853 42 35.6569 42 30V18z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M35 13v2" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 33v2" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                                    <span class="platform-icon" title="PC"><svg viewBox="144 144 512 512" width="18" height="18"><defs><clipPath id="a"><path d="m148.09 248H651.9v304H148.09z"/></clipPath></defs><g clip-path="url(#a)"><path d="m362.21 299.24H639.3c6.8711.0 12.594 5.7266 12.594 12.594v176.33c0 6.8711-5.7266 12.594-12.594 12.594H513.35v25.191h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594h-100.77c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785v-25.191H362.2c-6.8711.0-12.594-5.7266-12.594-12.594v-176.33c0-6.8711 5.7266-12.594 12.594-12.594zM236.26 475.57c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594zm-18.895-91.887c-6.8711.0-12.594-5.4375-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 7.1562-5.7266 12.594-12.594 12.594zm0-52.672c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594zm81.867-56.965h-125.95v251.91h125.95zm-138.55-25.191h151.14c6.8711.0 12.594 5.7266 12.594 12.594v277.09c0 6.8711-5.7266 12.594-12.594 12.594h-151.14c-6.8711.0-12.594-5.7266-12.594-12.594v-277.09c0-6.8711 5.7266-12.594 12.594-12.594zm466.02 75.57h-251.91v151.14h251.91z"/></g></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>Assassin's Creed Chronicles 2</h4>
+                                <span class="title-platform">PS4</span>
+                                <span class="title-badge">Action</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PlayStation"><svg viewBox="0 0 32 32" width="18" height="18" fill="none"><path d="M.69116 21.9548C-.506476 22.7935-.284724 24.2384 2.44769 25.1419 5.18011 26.0455 8.35603 26.2323 11.1505 25.729c-.0797999999999988.0.159700000000001.0.0.0V22.8774L8.43588 23.8c-1.03796.3355-2.07591.4194-3.11386.1677-.79842-.2516-.63874-.7548.31937-1.1742l5.50911-2.0129V17.6774L3.48565 20.4452C2.52754 20.7806 1.56943 21.2839.69116 21.9548zM19.2146 9.37419V17.5097c3.2735 1.6774 5.8285.0 5.8285-4.3613.0-4.44517-1.517-6.45808-5.9083-8.05163C16.8193 4.25806 14.4241 3.50323 12.0288 3V27.2387L17.6178 29V8.61935c0-.922580000000001.0-1.59354.6387-1.34193C19.1348 7.52903 19.2146 8.45161 19.2146 9.37419zM29.5941 20.0258C27.2787 19.1871 24.8036 18.8516 22.4083 19.1032 21.0779 19.1906 19.8294 19.5869 18.5759 20.0258v3.271l5.1897-2.0129c1.038-.3355 2.0759-.4194 3.1139-.1678C27.6779 21.3677 27.5182 21.871 26.5601 22.2903l-7.9842 3.1032v3.1871l11.0182-4.2774C30.3925 23.9677 31.1111 23.5484 31.7499 22.8774 32.3088 22.0387 32.0692 20.8645 29.5941 20.0258z" fill="#0070D1"/></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>Assassin's Creed Chronicles 1</h4>
+                                <span class="title-platform">PS4</span>
+                                <span class="title-badge">Action</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PlayStation"><svg viewBox="0 0 32 32" width="18" height="18" fill="none"><path d="M.69116 21.9548C-.506476 22.7935-.284724 24.2384 2.44769 25.1419 5.18011 26.0455 8.35603 26.2323 11.1505 25.729c-.0797999999999988.0.159700000000001.0.0.0V22.8774L8.43588 23.8c-1.03796.3355-2.07591.4194-3.11386.1677-.79842-.2516-.63874-.7548.31937-1.1742l5.50911-2.0129V17.6774L3.48565 20.4452C2.52754 20.7806 1.56943 21.2839.69116 21.9548zM19.2146 9.37419V17.5097c3.2735 1.6774 5.8285.0 5.8285-4.3613.0-4.44517-1.517-6.45808-5.9083-8.05163C16.8193 4.25806 14.4241 3.50323 12.0288 3V27.2387L17.6178 29V8.61935c0-.922580000000001.0-1.59354.6387-1.34193C19.1348 7.52903 19.2146 8.45161 19.2146 9.37419zM29.5941 20.0258C27.2787 19.1871 24.8036 18.8516 22.4083 19.1032 21.0779 19.1906 19.8294 19.5869 18.5759 20.0258v3.271l5.1897-2.0129c1.038-.3355 2.0759-.4194 3.1139-.1678C27.6779 21.3677 27.5182 21.871 26.5601 22.2903l-7.9842 3.1032v3.1871l11.0182-4.2774C30.3925 23.9677 31.1111 23.5484 31.7499 22.8774 32.3088 22.0387 32.0692 20.8645 29.5941 20.0258z" fill="#0070D1"/></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>Rabbids: Party of Legends (Chinese Version)</h4>
+                                <span class="title-platform">Nintendo Switch</span>
+                                <span class="title-badge">Casual</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="Nintendo Switch"><svg viewBox="0 0 48 48" width="18" height="18" fill="none"><rect width="48" height="48" fill="#fff" fill-opacity=".01"/><path d="M6 18C6 12.3431 6 9.51472 7.75736 7.75736S12.3431 6 18 6h2V42H18c-5.6569.0-8.48528.0-10.24264-1.7574C6 38.4853 6 35.6569 6 30V18z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 18c0-5.6569.0-8.48528-1.7574-10.24264C38.4853 6 35.6569 6 30 6H28V42h2c5.6569.0 8.4853.0 10.2426-1.7574C42 38.4853 42 35.6569 42 30V18z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M35 13v2" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 33v2" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="title-group scroll-reveal">
+                        <h3 class="title-period">Game Tester &middot; 2021 &ndash; 2022</h3>
+                        <div class="title-items">
+                            <div class="title-card">
+                                <h4>Rabbids: Party of Legends</h4>
+                                <span class="title-platform">PS4 &middot; Switch &middot; PC &middot; Stadia</span>
+                                <span class="title-badge">Party Game</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PlayStation"><svg viewBox="0 0 32 32" width="18" height="18" fill="none"><path d="M.69116 21.9548C-.506476 22.7935-.284724 24.2384 2.44769 25.1419 5.18011 26.0455 8.35603 26.2323 11.1505 25.729c-.0797999999999988.0.159700000000001.0.0.0V22.8774L8.43588 23.8c-1.03796.3355-2.07591.4194-3.11386.1677-.79842-.2516-.63874-.7548.31937-1.1742l5.50911-2.0129V17.6774L3.48565 20.4452C2.52754 20.7806 1.56943 21.2839.69116 21.9548zM19.2146 9.37419V17.5097c3.2735 1.6774 5.8285.0 5.8285-4.3613.0-4.44517-1.517-6.45808-5.9083-8.05163C16.8193 4.25806 14.4241 3.50323 12.0288 3V27.2387L17.6178 29V8.61935c0-.922580000000001.0-1.59354.6387-1.34193C19.1348 7.52903 19.2146 8.45161 19.2146 9.37419zM29.5941 20.0258C27.2787 19.1871 24.8036 18.8516 22.4083 19.1032 21.0779 19.1906 19.8294 19.5869 18.5759 20.0258v3.271l5.1897-2.0129c1.038-.3355 2.0759-.4194 3.1139-.1678C27.6779 21.3677 27.5182 21.871 26.5601 22.2903l-7.9842 3.1032v3.1871l11.0182-4.2774C30.3925 23.9677 31.1111 23.5484 31.7499 22.8774 32.3088 22.0387 32.0692 20.8645 29.5941 20.0258z" fill="#0070D1"/></svg></span>
+                                    <span class="platform-icon" title="Nintendo Switch"><svg viewBox="0 0 48 48" width="18" height="18" fill="none"><rect width="48" height="48" fill="#fff" fill-opacity=".01"/><path d="M6 18C6 12.3431 6 9.51472 7.75736 7.75736S12.3431 6 18 6h2V42H18c-5.6569.0-8.48528.0-10.24264-1.7574C6 38.4853 6 35.6569 6 30V18z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 18c0-5.6569.0-8.48528-1.7574-10.24264C38.4853 6 35.6569 6 30 6H28V42h2c5.6569.0 8.4853.0 10.2426-1.7574C42 38.4853 42 35.6569 42 30V18z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M35 13v2" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 33v2" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                                    <span class="platform-icon" title="PC"><svg viewBox="144 144 512 512" width="18" height="18"><defs><clipPath id="a"><path d="m148.09 248H651.9v304H148.09z"/></clipPath></defs><g clip-path="url(#a)"><path d="m362.21 299.24H639.3c6.8711.0 12.594 5.7266 12.594 12.594v176.33c0 6.8711-5.7266 12.594-12.594 12.594H513.35v25.191h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594h-100.77c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785v-25.191H362.2c-6.8711.0-12.594-5.7266-12.594-12.594v-176.33c0-6.8711 5.7266-12.594 12.594-12.594zM236.26 475.57c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594zm-18.895-91.887c-6.8711.0-12.594-5.4375-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 7.1562-5.7266 12.594-12.594 12.594zm0-52.672c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594zm81.867-56.965h-125.95v251.91h125.95zm-138.55-25.191h151.14c6.8711.0 12.594 5.7266 12.594 12.594v277.09c0 6.8711-5.7266 12.594-12.594 12.594h-151.14c-6.8711.0-12.594-5.7266-12.594-12.594v-277.09c0-6.8711 5.7266-12.594 12.594-12.594zm466.02 75.57h-251.91v151.14h251.91z"/></g></svg></span>
+                                    <span class="platform-icon" title="Google Stadia"><svg fill="currentColor" width="18" height="18" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><title>Stadia icon</title><path d="M.202 8.668A.482.482.0 000 9.058v.006c0 .064.014.128.04.19l2.298 5.204c.102.23.364.343.602.259 1.504-.536 6.713-2.233 10.083-1.318.0.0-3.381.196-6.438 2.593a.48.48.0 00-.142.571l1.029 2.326.396.929c.094.22.395.247.528.047.713-1.074 1.916-1.611 3.072-2.08a17.647 17.647.0 013.679-1.05 15.993 15.993.0 014.07-.167.481.481.0 00.503-.335l1.038-3.317a.48.48.0 00-.176-.531c-1.158-.838-5.741-3.654-13.802-2.523.0.0 6.878-3.951 15.61.39a.481.481.0 00.673-.288l.915-2.925A.484.484.0 0024 6.902v-.014a.48.48.0 00-.243-.41C22.66 5.858 18.95 4 13.846 4 9.934 4 5.203 5.09.202 8.668"/></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>Starlink: Battle for Atlas</h4>
+                                <span class="title-platform">Nintendo Switch</span>
+                                <span class="title-badge">Action</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="Nintendo Switch"><svg viewBox="0 0 48 48" width="18" height="18" fill="none"><rect width="48" height="48" fill="#fff" fill-opacity=".01"/><path d="M6 18C6 12.3431 6 9.51472 7.75736 7.75736S12.3431 6 18 6h2V42H18c-5.6569.0-8.48528.0-10.24264-1.7574C6 38.4853 6 35.6569 6 30V18z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 18c0-5.6569.0-8.48528-1.7574-10.24264C38.4853 6 35.6569 6 30 6H28V42h2c5.6569.0 8.4853.0 10.2426-1.7574C42 38.4853 42 35.6569 42 30V18z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M35 13v2" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 33v2" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>Rabbids: Party of Legends (Chinese Version)</h4>
+                                <span class="title-platform">Switch &middot; PC</span>
+                                <span class="title-badge">Casual</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="Nintendo Switch"><svg viewBox="0 0 48 48" width="18" height="18" fill="none"><rect width="48" height="48" fill="#fff" fill-opacity=".01"/><path d="M6 18C6 12.3431 6 9.51472 7.75736 7.75736S12.3431 6 18 6h2V42H18c-5.6569.0-8.48528.0-10.24264-1.7574C6 38.4853 6 35.6569 6 30V18z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 18c0-5.6569.0-8.48528-1.7574-10.24264C38.4853 6 35.6569 6 30 6H28V42h2c5.6569.0 8.4853.0 10.2426-1.7574C42 38.4853 42 35.6569 42 30V18z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M35 13v2" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 33v2" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                                    <span class="platform-icon" title="PC"><svg viewBox="144 144 512 512" width="18" height="18"><defs><clipPath id="a"><path d="m148.09 248H651.9v304H148.09z"/></clipPath></defs><g clip-path="url(#a)"><path d="m362.21 299.24H639.3c6.8711.0 12.594 5.7266 12.594 12.594v176.33c0 6.8711-5.7266 12.594-12.594 12.594H513.35v25.191h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594h-100.77c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785v-25.191H362.2c-6.8711.0-12.594-5.7266-12.594-12.594v-176.33c0-6.8711 5.7266-12.594 12.594-12.594zM236.26 475.57c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594zm-18.895-91.887c-6.8711.0-12.594-5.4375-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 7.1562-5.7266 12.594-12.594 12.594zm0-52.672c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594zm81.867-56.965h-125.95v251.91h125.95zm-138.55-25.191h151.14c6.8711.0 12.594 5.7266 12.594 12.594v277.09c0 6.8711-5.7266 12.594-12.594 12.594h-151.14c-6.8711.0-12.594-5.7266-12.594-12.594v-277.09c0-6.8711 5.7266-12.594 12.594-12.594zm466.02 75.57h-251.91v151.14h251.91z"/></g></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>SPORTS</h4>
+                                <span class="title-platform">Nintendo Switch</span>
+                                <span class="title-badge">Sports</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="Nintendo Switch"><svg viewBox="0 0 48 48" width="18" height="18" fill="none"><rect width="48" height="48" fill="#fff" fill-opacity=".01"/><path d="M6 18C6 12.3431 6 9.51472 7.75736 7.75736S12.3431 6 18 6h2V42H18c-5.6569.0-8.48528.0-10.24264-1.7574C6 38.4853 6 35.6569 6 30V18z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 18c0-5.6569.0-8.48528-1.7574-10.24264C38.4853 6 35.6569 6 30 6H28V42h2c5.6569.0 8.4853.0 10.2426-1.7574C42 38.4853 42 35.6569 42 30V18z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M35 13v2" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 33v2" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="title-group scroll-reveal">
+                        <h3 class="title-period">Junior Game Tester &middot; 2019 &ndash; 2021</h3>
+                        <div class="title-items">
+                            <div class="title-card">
+                                <h4>Uno Flip! DLC</h4>
+                                <span class="title-platform">PC &middot; Stadia</span>
+                                <span class="title-badge">DLC</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PC"><svg viewBox="144 144 512 512" width="18" height="18"><defs><clipPath id="a"><path d="m148.09 248H651.9v304H148.09z"/></clipPath></defs><g clip-path="url(#a)"><path d="m362.21 299.24H639.3c6.8711.0 12.594 5.7266 12.594 12.594v176.33c0 6.8711-5.7266 12.594-12.594 12.594H513.35v25.191h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594h-100.77c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785v-25.191H362.2c-6.8711.0-12.594-5.7266-12.594-12.594v-176.33c0-6.8711 5.7266-12.594 12.594-12.594zM236.26 475.57c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594zm-18.895-91.887c-6.8711.0-12.594-5.4375-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 7.1562-5.7266 12.594-12.594 12.594zm0-52.672c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594zm81.867-56.965h-125.95v251.91h125.95zm-138.55-25.191h151.14c6.8711.0 12.594 5.7266 12.594 12.594v277.09c0 6.8711-5.7266 12.594-12.594 12.594h-151.14c-6.8711.0-12.594-5.7266-12.594-12.594v-277.09c0-6.8711 5.7266-12.594 12.594-12.594zm466.02 75.57h-251.91v151.14h251.91z"/></g></svg></span>
+                                    <span class="platform-icon" title="Google Stadia"><svg fill="currentColor" width="18" height="18" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><title>Stadia icon</title><path d="M.202 8.668A.482.482.0 000 9.058v.006c0 .064.014.128.04.19l2.298 5.204c.102.23.364.343.602.259 1.504-.536 6.713-2.233 10.083-1.318.0.0-3.381.196-6.438 2.593a.48.48.0 00-.142.571l1.029 2.326.396.929c.094.22.395.247.528.047.713-1.074 1.916-1.611 3.072-2.08a17.647 17.647.0 013.679-1.05 15.993 15.993.0 014.07-.167.481.481.0 00.503-.335l1.038-3.317a.48.48.0 00-.176-.531c-1.158-.838-5.741-3.654-13.802-2.523.0.0 6.878-3.951 15.61.39a.481.481.0 00.673-.288l.915-2.925A.484.484.0 0024 6.902v-.014a.48.48.0 00-.243-.41C22.66 5.858 18.95 4 13.846 4 9.934 4 5.203 5.09.202 8.668"/></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>Assassin's Creed IV: Black Flag</h4>
+                                <span class="title-platform">PC</span>
+                                <span class="title-badge">Action</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PC"><svg viewBox="144 144 512 512" width="18" height="18"><defs><clipPath id="a"><path d="m148.09 248H651.9v304H148.09z"/></clipPath></defs><g clip-path="url(#a)"><path d="m362.21 299.24H639.3c6.8711.0 12.594 5.7266 12.594 12.594v176.33c0 6.8711-5.7266 12.594-12.594 12.594H513.35v25.191h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594h-100.77c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785v-25.191H362.2c-6.8711.0-12.594-5.7266-12.594-12.594v-176.33c0-6.8711 5.7266-12.594 12.594-12.594zM236.26 475.57c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594zm-18.895-91.887c-6.8711.0-12.594-5.4375-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 7.1562-5.7266 12.594-12.594 12.594zm0-52.672c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594zm81.867-56.965h-125.95v251.91h125.95zm-138.55-25.191h151.14c6.8711.0 12.594 5.7266 12.594 12.594v277.09c0 6.8711-5.7266 12.594-12.594 12.594h-151.14c-6.8711.0-12.594-5.7266-12.594-12.594v-277.09c0-6.8711 5.7266-12.594 12.594-12.594zm466.02 75.57h-251.91v151.14h251.91z"/></g></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>Assassin's Creed Chronicles 1</h4>
+                                <span class="title-platform">PS4</span>
+                                <span class="title-badge">Action</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PlayStation"><svg viewBox="0 0 32 32" width="18" height="18" fill="none"><path d="M.69116 21.9548C-.506476 22.7935-.284724 24.2384 2.44769 25.1419 5.18011 26.0455 8.35603 26.2323 11.1505 25.729c-.0797999999999988.0.159700000000001.0.0.0V22.8774L8.43588 23.8c-1.03796.3355-2.07591.4194-3.11386.1677-.79842-.2516-.63874-.7548.31937-1.1742l5.50911-2.0129V17.6774L3.48565 20.4452C2.52754 20.7806 1.56943 21.2839.69116 21.9548zM19.2146 9.37419V17.5097c3.2735 1.6774 5.8285.0 5.8285-4.3613.0-4.44517-1.517-6.45808-5.9083-8.05163C16.8193 4.25806 14.4241 3.50323 12.0288 3V27.2387L17.6178 29V8.61935c0-.922580000000001.0-1.59354.6387-1.34193C19.1348 7.52903 19.2146 8.45161 19.2146 9.37419zM29.5941 20.0258C27.2787 19.1871 24.8036 18.8516 22.4083 19.1032 21.0779 19.1906 19.8294 19.5869 18.5759 20.0258v3.271l5.1897-2.0129c1.038-.3355 2.0759-.4194 3.1139-.1678C27.6779 21.3677 27.5182 21.871 26.5601 22.2903l-7.9842 3.1032v3.1871l11.0182-4.2774C30.3925 23.9677 31.1111 23.5484 31.7499 22.8774 32.3088 22.0387 32.0692 20.8645 29.5941 20.0258z" fill="#0070D1"/></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>Assassin's Creed Chronicles 2</h4>
+                                <span class="title-platform">PS4</span>
+                                <span class="title-badge">Action</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PlayStation"><svg viewBox="0 0 32 32" width="18" height="18" fill="none"><path d="M.69116 21.9548C-.506476 22.7935-.284724 24.2384 2.44769 25.1419 5.18011 26.0455 8.35603 26.2323 11.1505 25.729c-.0797999999999988.0.159700000000001.0.0.0V22.8774L8.43588 23.8c-1.03796.3355-2.07591.4194-3.11386.1677-.79842-.2516-.63874-.7548.31937-1.1742l5.50911-2.0129V17.6774L3.48565 20.4452C2.52754 20.7806 1.56943 21.2839.69116 21.9548zM19.2146 9.37419V17.5097c3.2735 1.6774 5.8285.0 5.8285-4.3613.0-4.44517-1.517-6.45808-5.9083-8.05163C16.8193 4.25806 14.4241 3.50323 12.0288 3V27.2387L17.6178 29V8.61935c0-.922580000000001.0-1.59354.6387-1.34193C19.1348 7.52903 19.2146 8.45161 19.2146 9.37419zM29.5941 20.0258C27.2787 19.1871 24.8036 18.8516 22.4083 19.1032 21.0779 19.1906 19.8294 19.5869 18.5759 20.0258v3.271l5.1897-2.0129c1.038-.3355 2.0759-.4194 3.1139-.1678C27.6779 21.3677 27.5182 21.871 26.5601 22.2903l-7.9842 3.1032v3.1871l11.0182-4.2774C30.3925 23.9677 31.1111 23.5484 31.7499 22.8774 32.3088 22.0387 32.0692 20.8645 29.5941 20.0258z" fill="#0070D1"/></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>Mario + Rabbids Kingdom Battle</h4>
+                                <span class="title-platform">Nintendo Switch</span>
+                                <span class="title-badge">Strategy</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="Nintendo Switch"><svg viewBox="0 0 48 48" width="18" height="18" fill="none"><rect width="48" height="48" fill="#fff" fill-opacity=".01"/><path d="M6 18C6 12.3431 6 9.51472 7.75736 7.75736S12.3431 6 18 6h2V42H18c-5.6569.0-8.48528.0-10.24264-1.7574C6 38.4853 6 35.6569 6 30V18z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 18c0-5.6569.0-8.48528-1.7574-10.24264C38.4853 6 35.6569 6 30 6H28V42h2c5.6569.0 8.4853.0 10.2426-1.7574C42 38.4853 42 35.6569 42 30V18z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M35 13v2" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 33v2" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>Roller Champions</h4>
+                                <span class="title-platform">PC</span>
+                                <span class="title-badge">Sports</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PC"><svg viewBox="144 144 512 512" width="18" height="18"><defs><clipPath id="a"><path d="m148.09 248H651.9v304H148.09z"/></clipPath></defs><g clip-path="url(#a)"><path d="m362.21 299.24H639.3c6.8711.0 12.594 5.7266 12.594 12.594v176.33c0 6.8711-5.7266 12.594-12.594 12.594H513.35v25.191h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594h-100.77c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785v-25.191H362.2c-6.8711.0-12.594-5.7266-12.594-12.594v-176.33c0-6.8711 5.7266-12.594 12.594-12.594zM236.26 475.57c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594zm-18.895-91.887c-6.8711.0-12.594-5.4375-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 7.1562-5.7266 12.594-12.594 12.594zm0-52.672c-6.8711.0-12.594-5.7266-12.594-12.594.0-6.8711 5.7266-12.594 12.594-12.594h37.785c6.8711.0 12.594 5.7266 12.594 12.594.0 6.8711-5.7266 12.594-12.594 12.594zm81.867-56.965h-125.95v251.91h125.95zm-138.55-25.191h151.14c6.8711.0 12.594 5.7266 12.594 12.594v277.09c0 6.8711-5.7266 12.594-12.594 12.594h-151.14c-6.8711.0-12.594-5.7266-12.594-12.594v-277.09c0-6.8711 5.7266-12.594 12.594-12.594zm466.02 75.57h-251.91v151.14h251.91z"/></g></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>Assassin's Creed IV: Black Flag &amp; Assassin's Creed Rogue Bundle</h4>
+                                <span class="title-platform">Nintendo Switch</span>
+                                <span class="title-badge">Action</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="Nintendo Switch"><svg viewBox="0 0 48 48" width="18" height="18" fill="none"><rect width="48" height="48" fill="#fff" fill-opacity=".01"/><path d="M6 18C6 12.3431 6 9.51472 7.75736 7.75736S12.3431 6 18 6h2V42H18c-5.6569.0-8.48528.0-10.24264-1.7574C6 38.4853 6 35.6569 6 30V18z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 18c0-5.6569.0-8.48528-1.7574-10.24264C38.4853 6 35.6569 6 30 6H28V42h2c5.6569.0 8.4853.0 10.2426-1.7574C42 38.4853 42 35.6569 42 30V18z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M35 13v2" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 33v2" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects" id="projects">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">Side Projects</span>
+                    <h2 class="section-title">QA Tooling Projects</h2>
+                </div>
+                <div class="projects-grid">
+                    <a href="https://github.com/sundarlohar007/QADeviceTool" target="_blank" rel="noopener noreferrer" class="project-card scroll-reveal">
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg>
+                        </div>
+                        <h3>QADeviceTool</h3>
+                        <p>Unified Windows desktop utility for Android and iOS device QA &mdash; log capture, build installation, file exploration, and app management in one place.</p>
+                        <div class="project-meta">
+                            <span class="project-status active">Active</span>
+                            <span class="project-tech">ADB &middot; scrcpy &middot; libimobiledevice</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/sundarlohar007/Benchify" target="_blank" rel="noopener noreferrer" class="project-card scroll-reveal" style="transition-delay: 0.1s">
+                        <div class="project-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg>
+                        </div>
+                        <h3>Benchify</h3>
+                        <p>Open-source mobile game performance benchmarking tool &mdash; a free alternative to GameBench built entirely on open-source components.</p>
+                        <div class="project-meta">
+                            <span class="project-status dev">In Development</span>
+                            <span class="project-tech">Open Source</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section education" id="education">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">Education</span>
+                    <h2 class="section-title">Education</h2>
+                </div>
+                <div class="education-card scroll-reveal">
+                    <div class="education-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5L2 10z"/><path d="M6 12v5c0 2 3.5 3 7 3s7-1 7-3v-5"/></svg>
+                    </div>
+                    <div class="education-info">
+                        <h3>Bachelor of Science, Computer Science</h3>
+                        <p>Savitribai Phule Pune University &middot; 2017 &ndash; 2020</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact" id="contact">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">Contact</span>
+                    <h2 class="section-title">Let's Connect</h2>
+                </div>
+                <div class="contact-content scroll-reveal">
+                    <p class="contact-text">
+                        Always open to discussing QA, game testing, tooling, or new opportunities.
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:sundarlohar007@gmail.com" class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-9.5 5.5L3 7"/></svg>
+                            </div>
+                            <span>sundarlohar007@gmail.com</span>
+                        </a>
+                        <a href="tel:+919762201725" class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.32 2.13 1.06 4.13 2.13 5.93a2 2 0 0 1-.45 2.55l-.63.63a16 16 0 0 0 6 6l.63-.63a2 2 0 0 1 2.55-.45c1.8 1.07 3.8 1.81 5.93 2.13a2 2 0 0 1 1.72 2z"/></svg>
+                            </div>
+                            <span>+91 97622 01725</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sundar-lohar-007/" target="_blank" rel="noopener noreferrer" class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.461v6.242zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            </div>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/sundarlohar007" target="_blank" rel="noopener noreferrer" class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.6.11.82-.26.82-.577 0-.286-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.082-.73.082-.73 1.205.085 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.305 3.492.998.108-.775.42-1.306.763-1.605-2.665-.305-5.467-1.334-5.467-5.93 0-1.31.468-2.382 1.235-3.22-.135-.303-.54-1.524.105-3.176 0 0 1.005-.322 3.3 1.23A11.51 11.51 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.29-1.552 3.297-1.23 3.297-1.23.645 1.653.24 2.873.12 3.176.77.838 1.233 1.91 1.233 3.22 0 4.61-2.805 5.625-5.475 5.92.43.372.81 1.103.81 2.228 0 1.606-.015 2.898-.015 3.293 0 .32.22.694.825.576C20.565 21.796 24 17.298 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                            </div>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Built with care by Sundar Lohar &middot; Hosted on GitHub Pages</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="background.js"></script>
+</body>
+</html>
