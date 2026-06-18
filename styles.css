@@ -596,7 +596,7 @@ body {
     font-family: var(--font-mono);
     font-size: 0.85rem;
     color: var(--text-muted);
-    background: rgba(148, 163, 184lodging){background: rgba(148, 163, 184, 0.1);
+    background: rgba(148, 163, 184, 0.1);
     padding: 0.25rem 0.75rem;
     border-radius: 100px;
 }
