@@ -68,7 +68,7 @@ export function Navbar() {
           e.preventDefault()
           scrollTo("#home")
         }}
-        className="bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-2xl font-bold text-transparent"
+        className="flex size-10 items-center justify-center rounded-xl border border-border bg-card text-sm font-bold tracking-wider text-foreground transition-colors hover:bg-accent"
       >
         SL
       </a>

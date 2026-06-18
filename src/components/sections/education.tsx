@@ -10,7 +10,7 @@ export default function Education() {
         <div className="mb-4 text-sm font-semibold tracking-widest text-blue-600 dark:text-blue-400 uppercase">
           Background
         </div>
-        <h2 className="mb-12 text-3xl font-bold md:text-4xl">
+        <h2 className="mb-12 text-3xl font-bold md:text-4xl text-balance">
           Education
         </h2>
 
@@ -21,16 +21,19 @@ export default function Education() {
             </div>
             <div>
               <h3 className="text-lg font-semibold">
-                Bachelor of Engineering in Computer Science
+                Bachelor of Science in Computer Science
               </h3>
               <p className="text-sm text-muted-foreground">
-                University of Pune
+                Savitribai Phule Pune University
               </p>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                 Founded a strong foundation in computer science principles,
                 software engineering, and problem-solving methodologies that
                 underpin a systematic approach to quality assurance and game
                 testing.
+              </p>
+              <p className="mt-1 text-xs text-muted-foreground">
+                2017 – 2020
               </p>
             </div>
           </div>

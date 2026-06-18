@@ -46,7 +46,7 @@ function AnimatedCounter({ end, suffix, label }: StatProps) {
       ref={ref}
       className="flex flex-col items-center rounded-xl border border-border bg-background/60 backdrop-blur-sm dark:bg-background/80 dark:backdrop-blur-sm p-8 text-center"
     >
-      <div className="mb-1 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
+      <div className="mb-1 bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-4xl font-bold text-transparent md:text-5xl [font-variant-numeric:tabular-nums]">
         {count}{suffix}
       </div>
       <div className="text-sm text-muted-foreground">{label}</div>
@@ -57,7 +57,7 @@ function AnimatedCounter({ end, suffix, label }: StatProps) {
 const stats = [
   { end: 30, suffix: "+", label: "Shipped Titles" },
   { end: 7, suffix: "+", label: "Years at Ubisoft" },
-  { end: 6, suffix: "", label: "Platforms" },
+  { end: 8, suffix: "", label: "Platforms" },
   { end: 100, suffix: "+", label: "Defects / Title" },
 ]
 

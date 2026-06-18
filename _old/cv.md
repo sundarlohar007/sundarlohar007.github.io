@@ -2,7 +2,7 @@
 
 **Senior Game Tester · Multi-Platform QA · Live Service QA**
 
-sundarlohar007@gmail.com · +91 97622 01725 · [LinkedIn](https://www.linkedin.com/in/sundar-lohar-007/) · Pune, Maharashtra, India
+sundarlohar007@gmail.com  · [LinkedIn](https://www.linkedin.com/in/sundar-lohar-007/) · Pune, Maharashtra, India
 
 ---
 
@@ -64,41 +64,6 @@ Senior Game Tester with 7+ years at Ubisoft Pune, shipping 30 projects across PC
 
 ---
 
-## Notable Shipped Titles (30 Projects · 6 Platforms)
-
-### Senior Game Tester · 2022 – Present
-
-| Title | Platforms | Details |
-|---|---|---|
-| The Division: Resurgence | Android | Live Service · Live-Ops |
-| Might & Magic: Fates | PC · Android · iOS | — |
-| Hungry Shark World | Xbox One · PS4 · Android · iOS | Casual Mobile |
-| XDefiant | PC · PS5 · Xbox Series X\|S | Multiplayer · Network |
-| Assassin's Creed: Nexus VR | Meta Quest 2 | Pre-Release · VR |
-| Roller Champions | PS4 · PC · Nintendo Switch | — |
-| Rabbids: Party of Legends | PC · Switch · Stadia | China + Base variants |
-| AC Chronicles 1 & 2 | PS4 | Component |
-
-### Game Tester · 2021 – 2022
-
-| Title | Platforms | Details |
-|---|---|---|
-| Rabbids: Party of Legends | Switch · Stadia | China variant + DLC |
-| Starlink: Battle for Atlas | Nintendo Switch | — |
-| Sports | Nintendo Switch | — |
-
-### Junior Game Tester · 2019 – 2021
-
-| Title | Platforms | Details |
-|---|---|---|
-| Rabbids: Party of Legends | Switch · Stadia · PS4 · Xbox One | Platform expansion |
-| Uno Flip! DLC | PC · Xbox One · Switch · Stadia · PS5 | DLC validation |
-| Roller Champions | PC | Pre-Release |
-| AC IV: Black Flag | PC | Component |
-| Rabbids Kingdom Battle | Nintendo Switch | — |
-| COMPIL ACBF + AC Rogue | Switch · PC | Snowdrop |
-
----
 
 ## QA Tooling Projects
 

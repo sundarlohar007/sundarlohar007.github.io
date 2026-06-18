@@ -39,7 +39,7 @@ export default function Hero() {
         </p>
 
         <div className="mb-10 flex items-center gap-2 text-muted-foreground">
-          <MapPin className="size-4" />
+          <MapPin className="size-4" aria-hidden="true" />
           <span>Pune, India</span>
         </div>
 
@@ -62,7 +62,7 @@ export default function Hero() {
       </div>
 
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <ChevronDown className="size-6 text-muted-foreground" />
+        <ChevronDown className="size-6 text-muted-foreground" aria-hidden="true" />
       </div>
     </section>
   )

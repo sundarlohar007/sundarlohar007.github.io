@@ -8,22 +8,16 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: "Multi-Platform Test Matrix Automation",
+    name: "QADeviceTool",
     description:
-      "Automated test matrix generation across PC, console, and mobile platforms with CI integration. Reduces manual effort by 60% by dynamically generating platform-specific test combinations based on build metadata and feature flags.",
-    tags: ["Python", "CI/CD", "Test Automation", "Cross-Platform"],
+      "Unified Windows desktop utility for Android and iOS device QA: log capture, build installation, file exploration, and app management in one place, built on ADB, scrcpy, and libimobiledevice. In studio-wide use at Ubisoft Pune.",
+    tags: ["ADB", "scrcpy", "libimobiledevice", "Windows"],
   },
   {
-    name: "Live Service QA Dashboard",
+    name: "Benchify",
     description:
-      "Real-time dashboards for tracking live service health, bug trends, and regression coverage. Integrates with JIRA and TeamCity to provide actionable insights for QA leads and production teams during live operations.",
-    tags: ["Dashboard", "JIRA API", "Data Viz", "Real-Time"],
-  },
-  {
-    name: "Dev QA Bridge Framework",
-    description:
-      "Streamlined communication framework between QA and development teams that reduced bug resolution time by 35%. Standardized reporting templates, escalation paths, and triage workflows for more efficient collaboration.",
-    tags: ["Workflow", "Process", "Communication", "Efficiency"],
+      "Open-source mobile game performance benchmarking tool in active development. A free alternative to GameBench built entirely on open-source components for measuring FPS, memory, and CPU usage.",
+    tags: ["Open Source", "Benchmarking", "Mobile", "Performance"],
   },
 ]
 
@@ -37,7 +31,7 @@ export default function Projects() {
         <div className="mb-4 text-sm font-semibold tracking-widest text-blue-600 dark:text-blue-400 uppercase">
           Portfolio
         </div>
-        <h2 className="mb-12 text-3xl font-bold md:text-4xl">
+        <h2 className="mb-12 text-3xl font-bold md:text-4xl text-balance">
           Featured Projects
         </h2>
 
@@ -48,7 +42,7 @@ export default function Projects() {
               className="group relative rounded-xl border border-border bg-background/60 backdrop-blur-sm dark:bg-background/80 dark:backdrop-blur-sm p-6 transition-all hover:border-blue-500/30 hover:shadow-[0_0_20px_rgba(59,130,246,0.08)]"
             >
               <div className="mb-4 flex size-10 items-center justify-center rounded-lg bg-blue-500/10">
-                <Code2 className="size-5 text-blue-400" />
+                <Code2 className="size-5 text-blue-400" aria-hidden="true" />
               </div>
               <h3 className="mb-2 text-lg font-semibold">
                 {project.name}

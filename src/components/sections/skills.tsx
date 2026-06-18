@@ -23,7 +23,7 @@ const colorMap: Record<string, string> = {
 const categories: Category[] = [
   {
     title: "QA & Testing",
-    icon: <FlaskConical className="size-5 text-blue-400" />,
+    icon: <FlaskConical className="size-5 text-blue-400" aria-hidden="true" />,
     tags: [
       { name: "Functional", color: "blue" },
       { name: "Regression", color: "blue" },
@@ -39,7 +39,7 @@ const categories: Category[] = [
   },
   {
     title: "Management & Reporting",
-    icon: <ScrollText className="size-5 text-purple-400" />,
+    icon: <ScrollText className="size-5 text-purple-400" aria-hidden="true" />,
     tags: [
       { name: "JIRA", color: "purple" },
       { name: "Xray", color: "purple" },
@@ -49,7 +49,7 @@ const categories: Category[] = [
   },
   {
     title: "Tools & SDKs",
-    icon: <Wrench className="size-5 text-amber-400" />,
+    icon: <Wrench className="size-5 text-amber-400" aria-hidden="true" />,
     tags: [
       { name: "Xbox GDK", color: "amber" },
       { name: "PS Neighborhood", color: "amber" },
@@ -61,11 +61,14 @@ const categories: Category[] = [
       { name: "Airtest IDE", color: "pink" },
       { name: "TeamCity", color: "amber" },
       { name: "Firebase Crashlytics", color: "amber" },
+      { name: "Chrome DevTools", color: "blue" },
+      { name: "3uTools", color: "pink" },
+      { name: "Unity", color: "blue" },
     ],
   },
   {
     title: "Platforms",
-    icon: <Gamepad2 className="size-5 text-green-400" />,
+    icon: <Gamepad2 className="size-5 text-green-400" aria-hidden="true" />,
     tags: [
       { name: "PC (Windows)", color: "green" },
       { name: "PS4/PS5", color: "green" },
@@ -73,15 +76,19 @@ const categories: Category[] = [
       { name: "Nintendo Switch", color: "green" },
       { name: "Android", color: "green" },
       { name: "iOS", color: "green" },
+      { name: "Meta Quest 2", color: "green" },
+      { name: "Google Stadia", color: "green" },
       { name: "Cross-Platform", color: "purple" },
     ],
   },
   {
     title: "OS & Environments",
-    icon: <Monitor className="size-5 text-pink-400" />,
+    icon: <Monitor className="size-5 text-pink-400" aria-hidden="true" />,
     tags: [
       { name: "Windows", color: "pink" },
       { name: "Windows Server", color: "pink" },
+      { name: "macOS", color: "pink" },
+      { name: "Linux", color: "pink" },
       { name: "Ubuntu", color: "pink" },
       { name: "VirtualBox", color: "pink" },
       { name: "Hyper-V", color: "pink" },
@@ -100,7 +107,7 @@ export default function Skills() {
         <div className="mb-4 text-sm font-semibold tracking-widest text-blue-600 dark:text-blue-400 uppercase">
           Expertise
         </div>
-        <h2 className="mb-12 text-3xl font-bold md:text-4xl">
+        <h2 className="mb-12 text-3xl font-bold md:text-4xl text-balance">
           Skills & Tools
         </h2>
 
