@@ -13,7 +13,7 @@ interface Role {
 const roles: Role[] = [
   {
     period: "Apr 2022 - Present",
-    title: "Senior Game Tester",
+    title: "Senior QA Tester",
     company: "Ubisoft Pune",
     location: "Pune, India",
     isCurrent: true,
@@ -31,7 +31,7 @@ const roles: Role[] = [
   },
   {
     period: "Apr 2021 - Mar 2022",
-    title: "Game Tester",
+    title: "QA Tester",
     company: "Ubisoft Pune",
     location: "Pune, India",
     highlights: [
@@ -44,7 +44,7 @@ const roles: Role[] = [
   },
   {
     period: "May 2019 - Mar 2021",
-    title: "Junior Game Tester",
+    title: "Junior QA Tester",
     company: "Ubisoft Pune",
     location: "Pune, India",
     highlights: [

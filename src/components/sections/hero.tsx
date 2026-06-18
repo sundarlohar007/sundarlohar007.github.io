@@ -27,7 +27,7 @@ export default function Hero() {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
             <span className="relative inline-flex size-2 rounded-full bg-green-500" />
           </span>
-          Senior Game Tester
+          Senior QA Tester
         </div>
 
         <h1 className="mb-4 bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 bg-clip-text text-5xl font-bold leading-tight text-transparent sm:text-6xl md:text-7xl">

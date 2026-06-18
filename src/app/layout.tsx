@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sundar Lohar | Senior Game Tester",
+  title: "Sundar Lohar | Senior QA Tester",
   description:
-    "Senior Game Tester with 7+ years of experience at Ubisoft. Specializing in QA automation, regression testing, and gameplay quality assurance across AAA titles.",
+    "Senior QA Tester with 7+ years of experience at Ubisoft. Specializing in QA automation, regression testing, and gameplay quality assurance across AAA titles.",
 };
 
 export const viewport: Viewport = {

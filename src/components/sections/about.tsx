@@ -14,7 +14,7 @@ export default function About() {
 
         <div className="rounded-xl border border-border bg-background dark:bg-background p-6 space-y-5 text-muted-foreground leading-relaxed">
           <p>
-            Senior Game Tester with 7+ years at Ubisoft Pune, shipping 30 projects
+            Senior QA Tester with 7+ years at Ubisoft Pune, shipping 30 projects
             across PC, console (Xbox One/Series X|S, PS4/PS5, Nintendo Switch),
             VR (Meta Quest 2), mobile (iOS/Android), and streaming (Google Stadia).
             Experienced across the full QA cycle: functional, regression, smoke/sanity,
