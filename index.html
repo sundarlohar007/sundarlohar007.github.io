@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="progress-bar" id="progressBar"></div>
+
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <a href="#home" class="nav-logo">SL</a>
@@ -27,6 +29,10 @@
                 <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </button>
         </div>
     </nav>
 
@@ -50,6 +56,10 @@
                 </p>
                 <div class="hero-actions fade-in" style="animation-delay: 0.4s">
                     <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="SundarLohar-Resume-New.docx" download class="btn btn-outline">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        Download CV
+                    </a>
                     <a href="https://github.com/sundarlohar007" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">View GitHub</a>
                 </div>
                 <div class="hero-scroll fade-in" style="animation-delay: 0.6s">
@@ -85,19 +95,19 @@
             <div class="container">
                 <div class="stats-grid">
                     <div class="stat-card scroll-reveal">
-                        <span class="stat-number">30+</span>
+                        <span class="stat-number" data-target="30" data-suffix="+">0</span>
                         <span class="stat-label">Shipped Titles</span>
                     </div>
                     <div class="stat-card scroll-reveal" style="transition-delay: 0.1s">
-                        <span class="stat-number">7+</span>
+                        <span class="stat-number" data-target="7" data-suffix="+">0</span>
                         <span class="stat-label">Years at Ubisoft</span>
                     </div>
                     <div class="stat-card scroll-reveal" style="transition-delay: 0.2s">
-                        <span class="stat-number">6</span>
+                        <span class="stat-number" data-target="6">0</span>
                         <span class="stat-label">Platforms</span>
                     </div>
                     <div class="stat-card scroll-reveal" style="transition-delay: 0.3s">
-                        <span class="stat-number">100+</span>
+                        <span class="stat-number" data-target="100" data-suffix="+">0</span>
                         <span class="stat-label">Defects / Title</span>
                     </div>
                 </div>
@@ -283,34 +293,68 @@
                             <div class="title-card">
                                 <h4>The Division: Resurgence</h4>
                                 <span class="title-platform">Android</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="Android">
+                                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M7.5 7.5h9V16a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1.5h-5V16a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5V7.5zM5 5h14l-1-2H6L5 5zM2 7h20v6.5a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5V9H4v4.5a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5V7zm8 2.5a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0zm6 0a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0z"/></svg>
+                                    </span>
+                                </div>
                                 <span class="title-badge live">Live Service</span>
                             </div>
                             <div class="title-card">
                                 <h4>Might &amp; Magic: Fates</h4>
                                 <span class="title-platform">PC &middot; Android &middot; iOS</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PC"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"/><line x1="8" y1="21" x2="16" y2="21" stroke="currentColor" stroke-width="2"/><line x1="12" y1="17" x2="12" y2="21" stroke="currentColor" stroke-width="2"/></svg></span>
+                                    <span class="platform-icon" title="Android"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M7.5 7.5h9V16a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1.5h-5V16a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5V7.5zM5 5h14l-1-2H6L5 5zM2 7h20v6.5a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5V9H4v4.5a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5V7zm8 2.5a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0zm6 0a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0z"/></svg></span>
+                                    <span class="platform-icon" title="iOS"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><rect x="4" y="2" width="16" height="20" rx="3" ry="3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="18" r="1" fill="currentColor"/></svg></span>
+                                </div>
                             </div>
                             <div class="title-card">
                                 <h4>Hungry Shark World</h4>
                                 <span class="title-platform">Xbox One &middot; PS4 &middot; Android &middot; iOS</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="Xbox"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M7 7c2 3 3 7 5 10 2-3 3-7 5-10" fill="none" stroke="currentColor" stroke-width="2"/></svg></span>
+                                    <span class="platform-icon" title="PlayStation"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.5 4.5c-1.5.5-4 2-5 3.5v10c1-1.5 3-3 5-3.5 2-.5 3 1 3 2v5.5c0 .5-.5 1-1 1-1 .5-3 1-5 1.5-3 .5-6 0-8-2-1.5-1.5-2-3.5-2-6 0-3 2-6 5-8 1.5-1 3.5-2 5-3 2-1 4-1 5 0 1 .5 1 1.5 1 2.5s-1 2-3 2.5z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+                                    <span class="platform-icon" title="Android"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M7.5 7.5h9V16a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1.5h-5V16a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5V7.5zM5 5h14l-1-2H6L5 5zM2 7h20v6.5a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5V9H4v4.5a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5V7zm8 2.5a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0zm6 0a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0z"/></svg></span>
+                                    <span class="platform-icon" title="iOS"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><rect x="4" y="2" width="16" height="20" rx="3" ry="3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="18" r="1" fill="currentColor"/></svg></span>
+                                </div>
                                 <span class="title-badge">Casual Mobile</span>
                             </div>
                             <div class="title-card">
                                 <h4>XDefiant</h4>
                                 <span class="title-platform">PC &middot; PS5 &middot; Xbox Series X|S</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PC"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"/><line x1="8" y1="21" x2="16" y2="21" stroke="currentColor" stroke-width="2"/><line x1="12" y1="17" x2="12" y2="21" stroke="currentColor" stroke-width="2"/></svg></span>
+                                    <span class="platform-icon" title="PlayStation"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.5 4.5c-1.5.5-4 2-5 3.5v10c1-1.5 3-3 5-3.5 2-.5 3 1 3 2v5.5c0 .5-.5 1-1 1-1 .5-3 1-5 1.5-3 .5-6 0-8-2-1.5-1.5-2-3.5-2-6 0-3 2-6 5-8 1.5-1 3.5-2 5-3 2-1 4-1 5 0 1 .5 1 1.5 1 2.5s-1 2-3 2.5z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+                                    <span class="platform-icon" title="Xbox"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M7 7c2 3 3 7 5 10 2-3 3-7 5-10" fill="none" stroke="currentColor" stroke-width="2"/></svg></span>
+                                </div>
                                 <span class="title-badge">Multiplayer</span>
                             </div>
                             <div class="title-card">
                                 <h4>Assassin's Creed: Nexus VR</h4>
                                 <span class="title-platform">Meta Quest 2</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="VR"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M22 8h-2v8h2V8zM4 8H2v8h2V8zm3 0h2l3 8h2l3-8h2l-4 10h-2L7 8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+                                </div>
                                 <span class="title-badge">VR</span>
                             </div>
                             <div class="title-card">
                                 <h4>Roller Champions</h4>
                                 <span class="title-platform">PS4 &middot; PC &middot; Nintendo Switch</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PlayStation"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.5 4.5c-1.5.5-4 2-5 3.5v10c1-1.5 3-3 5-3.5 2-.5 3 1 3 2v5.5c0 .5-.5 1-1 1-1 .5-3 1-5 1.5-3 .5-6 0-8-2-1.5-1.5-2-3.5-2-6 0-3 2-6 5-8 1.5-1 3.5-2 5-3 2-1 4-1 5 0 1 .5 1 1.5 1 2.5s-1 2-3 2.5z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+                                    <span class="platform-icon" title="PC"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"/><line x1="8" y1="21" x2="16" y2="21" stroke="currentColor" stroke-width="2"/><line x1="12" y1="17" x2="12" y2="21" stroke="currentColor" stroke-width="2"/></svg></span>
+                                    <span class="platform-icon" title="Nintendo Switch"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><rect x="4" y="2" width="7" height="20" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><rect x="13" y="4" width="7" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="7.5" cy="10" r="1.5" fill="currentColor"/><circle cx="16.5" cy="12" r="1.5" fill="currentColor"/></svg></span>
+                                </div>
                             </div>
                             <div class="title-card">
                                 <h4>Rabbids: Party of Legends</h4>
                                 <span class="title-platform">PC &middot; Switch &middot; Stadia</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PC"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"/><line x1="8" y1="21" x2="16" y2="21" stroke="currentColor" stroke-width="2"/><line x1="12" y1="17" x2="12" y2="21" stroke="currentColor" stroke-width="2"/></svg></span>
+                                    <span class="platform-icon" title="Nintendo Switch"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><rect x="4" y="2" width="7" height="20" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><rect x="13" y="4" width="7" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="7.5" cy="10" r="1.5" fill="currentColor"/><circle cx="16.5" cy="12" r="1.5" fill="currentColor"/></svg></span>
+                                    <span class="platform-icon" title="Stadia"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M3 4h18v4l-6 8H9l-6-8V4z" fill="none" stroke="currentColor" stroke-width="2"/></svg></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -320,11 +364,17 @@
                             <div class="title-card">
                                 <h4>Rabbids: Party of Legends</h4>
                                 <span class="title-platform">Switch &middot; Stadia</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="Nintendo Switch"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><rect x="4" y="2" width="7" height="20" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><rect x="13" y="4" width="7" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="7.5" cy="10" r="1.5" fill="currentColor"/><circle cx="16.5" cy="12" r="1.5" fill="currentColor"/></svg></span>
+                                    <span class="platform-icon" title="Stadia"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M3 4h18v4l-6 8H9l-6-8V4z" fill="none" stroke="currentColor" stroke-width="2"/></svg></span>
+                                </div>
                             </div>
                             <div class="title-card">
                                 <h4>Starlink: Battle for Atlas</h4>
                                 <span class="title-platform">Nintendo Switch</span>
-                            </div>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="Nintendo Switch"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><rect x="4" y="2" width="7" height="20" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><rect x="13" y="4" width="7" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="7.5" cy="10" r="1.5" fill="currentColor"/><circle cx="16.5" cy="12" r="1.5" fill="currentColor"/></svg></span>
+                                </div>
                         </div>
                     </div>
                     <div class="title-group scroll-reveal">
@@ -333,15 +383,34 @@
                             <div class="title-card">
                                 <h4>Uno Flip! DLC</h4>
                                 <span class="title-platform">PC &middot; Xbox One &middot; Switch &middot; Stadia &middot; PS5</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PC"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"/><line x1="8" y1="21" x2="16" y2="21" stroke="currentColor" stroke-width="2"/><line x1="12" y1="17" x2="12" y2="21" stroke="currentColor" stroke-width="2"/></svg></span>
+                                    <span class="platform-icon" title="Xbox"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M7 7c2 3 3 7 5 10 2-3 3-7 5-10" fill="none" stroke="currentColor" stroke-width="2"/></svg></span>
+                                    <span class="platform-icon" title="Nintendo Switch"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><rect x="4" y="2" width="7" height="20" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><rect x="13" y="4" width="7" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="7.5" cy="10" r="1.5" fill="currentColor"/><circle cx="16.5" cy="12" r="1.5" fill="currentColor"/></svg></span>
+                                    <span class="platform-icon" title="Stadia"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M3 4h18v4l-6 8H9l-6-8V4z" fill="none" stroke="currentColor" stroke-width="2"/></svg></span>
+                                    <span class="platform-icon" title="PlayStation"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.5 4.5c-1.5.5-4 2-5 3.5v10c1-1.5 3-3 5-3.5 2-.5 3 1 3 2v5.5c0 .5-.5 1-1 1-1 .5-3 1-5 1.5-3 .5-6 0-8-2-1.5-1.5-2-3.5-2-6 0-3 2-6 5-8 1.5-1 3.5-2 5-3 2-1 4-1 5 0 1 .5 1 1.5 1 2.5s-1 2-3 2.5z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+                                </div>
                             </div>
                             <div class="title-card">
                                 <h4>AC IV: Black Flag</h4>
                                 <span class="title-platform">PC</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PC"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"/><line x1="8" y1="21" x2="16" y2="21" stroke="currentColor" stroke-width="2"/><line x1="12" y1="17" x2="12" y2="21" stroke="currentColor" stroke-width="2"/></svg></span>
+                                </div>
+                            </div>
+                            <div class="title-card">
+                                <h4>AC Chronicles 1 &amp; 2</h4>
+                                <span class="title-platform">PS4</span>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="PlayStation"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.5 4.5c-1.5.5-4 2-5 3.5v10c1-1.5 3-3 5-3.5 2-.5 3 1 3 2v5.5c0 .5-.5 1-1 1-1 .5-3 1-5 1.5-3 .5-6 0-8-2-1.5-1.5-2-3.5-2-6 0-3 2-6 5-8 1.5-1 3.5-2 5-3 2-1 4-1 5 0 1 .5 1 1.5 1 2.5s-1 2-3 2.5z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+                                </div>
                             </div>
                             <div class="title-card">
                                 <h4>Rabbids Kingdom Battle</h4>
                                 <span class="title-platform">Nintendo Switch</span>
-                            </div>
+                                <div class="title-icons">
+                                    <span class="platform-icon" title="Nintendo Switch"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><rect x="4" y="2" width="7" height="20" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><rect x="13" y="4" width="7" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="7.5" cy="10" r="1.5" fill="currentColor"/><circle cx="16.5" cy="12" r="1.5" fill="currentColor"/></svg></span>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -442,6 +511,10 @@
             </div>
         </section>
     </main>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
 
     <footer class="footer">
         <div class="container">
